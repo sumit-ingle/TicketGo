@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/int_1">
+
+            <View
+                android:id="@+id/rectangle_at_the_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_centerInParent="false"
+                android:layout_weight="@integer/int_1"
+                android:background="@drawable/checkin_background"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/nfc_sign" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/rectangle_behind_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_centerInParent="false"
+                android:layout_weight="@integer/int_1"
+                android:background="#EFF0F1"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignStart="@+id/txtPassengers"
+                android:layout_below="@+id/txtPassengers"
+                android:layout_marginTop="@dimen/dimen_40dp"
+                android:text="Time : " />
+
+            <TextView
+                android:id="@+id/txtPassengers"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtSource"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="false"
+                android:text="Passengers :" />
+
+            <TextView
+                android:id="@+id/txtSource"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtPassengers"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="@dimen/dimen_40dp"
+                android:layout_marginLeft="@dimen/dimen_30dp"
+                android:text="Source :" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--TextView
+        android:id="@+id/txtTicketType"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPassengers"
+        android:layout_marginTop="30dp"
+        android:text="Type :" /-->

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.project.ticketgo.ticketgo.MainActivity">
+
+    <!--TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/switch1"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginBottom="45dp"
+        android:text="TICKET TYPE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="239dp" /-->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:text="PASSENGERS"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <!--Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
+        android:checked="false"
+        android:text="Return"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="306dp" /-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_arrow" />
+</RelativeLayout>

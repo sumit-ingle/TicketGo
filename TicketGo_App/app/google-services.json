@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "623384494965",
+    "firebase_url": "https://ticketgo-fd106.firebaseio.com",
+    "project_id": "ticketgo-fd106",
+    "storage_bucket": "ticketgo-fd106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623384494965:android:00917278b0d9f412",
+        "android_client_info": {
+          "package_name": "com.project.ticketgo.ticketgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623384494965-n50roqtbva0tqrnpcmnpi4vmlikr7tk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb-h6gW7WEl326-W1Ex7QOL9X50vIfnUc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

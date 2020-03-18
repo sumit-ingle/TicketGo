@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f49d9</color>
+    <color name="colorPrimaryDark">#0f2297</color>
+    <color name="colorAccent">#de2564</color>
+    <color name="gobutton">#6aff70</color>
+</resources>
